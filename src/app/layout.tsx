@@ -3,6 +3,7 @@ import { jakarta, inter } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://socalme.4everforward.net"),
   title: "SoCalEM | Urgent Care Centers in the Inland Empire, CA",
   description:
     "Walk-in urgent care open 7 days a week across 7 Inland Empire locations. In and out in an hour. On-site X-ray & lab, DOT physicals, occupational medicine. PPO, IEHP, Medi-Cal, Molina accepted.",
@@ -22,11 +23,23 @@ export const metadata: Metadata = {
     "Medi-Cal urgent care",
     "IEHP urgent care",
   ],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "SoCalEM | Urgent Care Centers in the Inland Empire",
     description:
       "Walk-in urgent care open 7 days a week. 7 locations, in and out in an hour. Insurance and self-pay options.",
-    images: ["/SoCal-logo.png"],
+    url: "https://socalme.4everforward.net",
+    siteName: "SoCalEM",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SoCalEM - Urgent Care Centers in the Inland Empire",
+      },
+    ],
     type: "website",
     locale: "en_US",
   },
@@ -35,7 +48,7 @@ export const metadata: Metadata = {
     title: "SoCalEM | Urgent Care Centers in the Inland Empire",
     description:
       "Walk-in urgent care open 7 days a week. 7 locations across the IE.",
-    images: ["/SoCal-logo.png"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

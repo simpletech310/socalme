@@ -17,8 +17,9 @@ export default function Home() {
     name: "SoCal Emergency Medicine - Urgent Care Centers",
     description:
       "Walk-in urgent care open 7 days a week across 7 Inland Empire locations. In and out in an hour.",
-    url: "https://socalem.com",
-    logo: "https://socalem.com/SoCal-logo.png",
+    url: "https://socalme.4everforward.net",
+    logo: "https://socalme.4everforward.net/SoCal-logo.png",
+    image: "https://socalme.4everforward.net/og-image.png",
     priceRange: "$$",
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
